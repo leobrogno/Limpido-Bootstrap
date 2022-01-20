@@ -90,40 +90,98 @@
           </div>
         </div>
       </div>
+
       <div class="row">
-        <h2>Otros servicios que presta nuestra empresa :        </h2>
+        <h2>Otros servicios que presta nuestra empresa : </h2>
       </div>
       <div class="row">
-        <div class="card card col-sm-12 col-md-6 col-lg-4" style="width: 18rem;">
-          <img src="./img/residuos.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text">Manejo y Clasificación de residuos patogénicos</p>
+        <div class="col-sm-12 col-md-6 col-lg-4  d-flex justify-content-center align-items-center">
+          <div class="card card" style="width: 18rem;">
+            <img src="./img/residuos.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Manejo y Clasificación de residuos patogénicos</p>
+            </div>
           </div>
         </div>
-        <div class="card card col-sm-12 col-md-6 col-lg-4" style="width: 18rem;">
-          <img src="./img/obra.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text">Limpieza final de obra</p>
+        <div class="col-sm-12 col-md-6 col-lg-4   d-flex justify-content-center align-items-center">
+          <div class="card card d-flex justify-content-center" style="width: 18rem;">
+            <img src="./img/obra.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Limpieza final de obra</p>
+            </div>
           </div>
         </div>
-        <div class="card card col-sm-12 col-md-6 col-lg-4" style="width: 18rem;">
-          <img src="./img/plaga.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text">Control de Plagas integral.</p>
+        <div class="col-sm-12 col-md-6 col-lg-4  d-flex justify-content-center align-items-center">
+          <div class="card card d-flex justify-content-center" style="width: 18rem;">
+            <img src="./img/plaga.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Control de Plagas integral.</p>
+            </div>
           </div>
         </div>
       </div>
-      
     </main>
-    <footer>
+    <footer class="row d-flex justify-content-between">
+      <div class="col-6 d-flex justify-content-start">
+          <form class="row g-3 needs-validation" novalidate>
+              <div class="col-md-4">
+                <label for="validationCustom01" class="form-label">Nombre completo</label>
+                <input type="text" class="form-control" id="validationCustom01" value="" required>
+                <div class="valid-feedback">
+                  Se ve bien!
+                </div>
+              </div>
+              <div class="col-md-4">
+                <label for="validationCustom02" class="form-label">E-Mail</label>
+                <input type="text" class="form-control" id="validationCustom02" value="" required>
+                <div class="valid-feedback">
+                  Se ve bien!!
+                </div>
+              </div>
+      
+              <div class="col-md-6">
+                <label for="validationCustom03" class="form-label">Consulta</label>
+                <input type="text" class="form-control" id="validationCustom03" required>
+                <div class="invalid-feedback">
+                  Por favor realice su consulta
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                  <label class="form-check-label" for="invalidCheck">
+                    Acepta terminos y condiciones?
+                  </label>
+                  <div class="invalid-feedback">
+                    Tenes que estar de acuerdo con los terminos para enviar.
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-6">
+                <button class="btn btn-primary" type="submit">Enviar consulta</button>
+              </div>
+            </form>
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-6 d-flex  align-items-center">
+          <img class=" img-fluid" src="./img/Screenshot_2.jpg" alt="logo">
+      </div>
+      <div><br></div>
+      <div class="col-12 legal">
+          <p class="text-center">Están reservados todos los derechos</p>
+      </div>
+  </footer>
 
-    </footer>
 
+</div>
 
-  </div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-  </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+</script>
+
+<script src=".js/wow.js"></script>
+<script>
+new WOW().init();
+</script>
 </body>
 
 </html>
